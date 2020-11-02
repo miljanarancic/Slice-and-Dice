@@ -1,0 +1,78 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3.125em;
+  padding-bottom: 150px;
+  color: var(--text-color);
+}
+
+.about-us .title {
+  position: relative;
+  font-size: 3.125em;
+  margin-bottom: 1.5625em;
+  padding-bottom: 1.5625em;
+}
+
+.about-us .title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 1.875em;
+  height: 0.125em;
+  background-color: var(--mint-color);
+  transform: translateX(-50%);
+}
+
+.about-us p {
+  font-size: 1.25em;
+}
+
+.about-us__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 6.25em;
+}
+
+.about-us__cards__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  text-align: center;
+}
+
+.about-us__cards__card__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: var(--lightgray-color);
+  width: 7.5em;
+  height: 7.5em;
+}
+
+.about-us__cards__card:hover .about-us__cards__card__icon {
+  background-color: var(--mint-color);
+  transition: background-color 200ms;
+}
+
+.card-heading {
+  font-family: Raleway-regular;
+  font-size: 2em;
+  color: black;
+  padding-top: 1.875em;
+}
+
+.about-us__cards__card__icon i {
+  font-size: 2em;
+  color: var(--darkgray-color);
+}
+
+.about-us__cards__card:hover .about-us__cards__card__icon i {
+  color: white;
+  transition: color 200ms;
+}

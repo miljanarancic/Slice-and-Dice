@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Raleway-light;
+  src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Raleway-regular;
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: Raleway-bold;
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: Raleway-extra-bold;
+  src: url(../fonts/Raleway-ExtraBold.ttf);
+}

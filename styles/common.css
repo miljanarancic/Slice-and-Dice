@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  font-family: Raleway-light;
+}
+
+body {
+  margin: 0;
+}
+
+.padding {
+  padding-left: 13.75em;
+  padding-right: 13.75em;
+}
+
+.button {
+  background-color: var(--mint-color);
+  color: white;
+  padding: 0.9375em 2.5em;
+  margin-top: 3em;
+  font-size: 0.9375em;
+  font-weight: bold;
+  border-radius: 1.5625em;
+  border: none;
+}
+
+.button:hover {
+  background-color: rgb(112, 248, 196);
+}
+
+:root {
+  --mint-color: #17daa2;
+  --button-color: #00b6cb;
+  --darkgray-color: #87949d;
+  --lightgray-color: #eeeff1;
+  --text-color: #89939d;
+}

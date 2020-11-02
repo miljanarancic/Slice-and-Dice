@@ -1,0 +1,33 @@
+.section-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 6.25em;
+  padding-bottom: 6.25em;
+}
+
+.section-two__image {
+  width: 50%;
+}
+
+.section-two__image img {
+  width: 100%;
+}
+
+.section-two__content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.section-two__content span {
+  font-size: 3.125em;
+  padding-bottom: 1em;
+  color: var(--text-color);
+}
+
+.section-two__content p {
+  font-size: 1.25em;
+  color: var(--text-color);
+  line-height: 2.5em;
+}
